@@ -5,6 +5,7 @@ import './App.css'
 import Chrono from './components/Chrono'
 import Tracker from './components/Tracker'
 import Click from './components/Click'
+import Blink from './components/Blink'
 
 function App() {
  
@@ -24,6 +25,7 @@ function App() {
 
       <Tracker/>
       <Click/>
+      <Blink/>
 
     </>
   )
