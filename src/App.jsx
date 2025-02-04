@@ -6,6 +6,7 @@ import Chrono from './components/Chrono'
 
 function App() {
  
+  //état surveillant l'ouverture du component chrono
   const [open, setOpen] = useState(false)
 
   
