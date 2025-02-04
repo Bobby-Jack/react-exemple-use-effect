@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Chrono from './components/Chrono'
+import Tracker from './components/Tracker'
 
 function App() {
  
@@ -19,6 +20,8 @@ function App() {
       {
         open && <Chrono/>
       }
+
+      <Tracker/>
 
     </>
   )
