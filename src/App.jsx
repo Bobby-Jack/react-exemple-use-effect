@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Chrono from './components/Chrono'
 import Tracker from './components/Tracker'
+import Click from './components/Click'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
       }
 
       <Tracker/>
+      <Click/>
 
     </>
   )

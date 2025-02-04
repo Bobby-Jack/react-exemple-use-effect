@@ -1,0 +1,30 @@
+.clicker{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: wheat;
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+
+.pop{
+    position: absolute;
+    transition: 0.3s ease;
+    animation: appear 1s ease;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+}
